@@ -1,4 +1,5 @@
-
+const eqArrays = require("./eqArrays")
+const assertArraysEqual = require("./assertArraysEqual")
   
 const map = function(array, callback) {
 
@@ -8,3 +9,4 @@ const map = function(array, callback) {
   }
   return results;
 }
+	module.exports = map

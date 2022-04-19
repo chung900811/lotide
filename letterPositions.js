@@ -1,6 +1,7 @@
+const eqArrays = require("./eqArrays")
+const assertArraysEqual = require("./assertArraysEqual")
 const letterPositions = function(sentence) {
-  
-  const results = {};
+const results = {};
   for (let i = 0; i < sentence.length; i++) {
    
     if (results[sentence[i]]) {
@@ -14,3 +15,4 @@ const letterPositions = function(sentence) {
     
   return results;
 };
+	module.exports = letterPositions

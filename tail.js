@@ -1,3 +1,6 @@
+
+const assertEqual = require("./assertEqual");
+
 const words = ["Terry", "Lighthouse", "Labs"];
 
 const tail = function(array){

@@ -1,4 +1,4 @@
-
+const assertArraysEqual = require("./assertArraysEqual")
   
 const takeUntil = (array, callback) => {
   const results = [];
@@ -11,3 +11,5 @@ const takeUntil = (array, callback) => {
   }
   return results;
 };
+
+	module.exports = takeUntil
