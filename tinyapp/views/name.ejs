@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -22,17 +22,17 @@
       <table class="table">
         <thead>
           <tr>
-            <th scope="col">Short URL ID</th>
-            <th scope="col">Long URL</th>
+            <% for (let data in name) { %>
+                <tr>
+                  <td><%= data %></td>
+                  <td><%= name[data] %></td>
+                  <td><%= name[name] %></td>
+                </tr>
+              <% } %>
           </tr>
         </thead>
         <tbody>
-          <% for (let id in urls) { %>
-            <tr>
-              <td><%= id %></td>
-              <td><%= urls[id] %></td>
-            </tr>
-          <% } %>
+
         </tbody>
       </table>
     </main>
@@ -53,4 +53,4 @@
       crossorigin="anonymous"
     ></script>
   </body>
-</html>
+</html> -->
